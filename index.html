@@ -3,20 +3,101 @@
 <head>
   <title>Home</title>
     <link rel="icon" href="icon-nobg.png">
-    <link href='https://fonts.googleapis.com/css2?family=Source+Code+Pro' rel='stylesheet'>
+     <link href='https://fonts.googleapis.com/css2?family=Source+Code+Pro' rel='stylesheet'>
   <meta charset="UTF-8">
 </head>
-<body style="background-color:rgb(0, 0, 0);">
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-     
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-     
-    </div>
-    <div id="content">
-        <h2 font color="white">This is our page title</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-    </div>
+<body style="background-color:aqua">
+  <div class="container">
+   <img src="Loading.gif" alt="">
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+   $(window).on('load', function () {
+       $(".container").fadeOut("slow");
+  });
+</script>
+<style>
+  body {font-family: Futura, Skia}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family: "Ubuntu", sans-serif}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: Gray;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <a class="active" href="https://yb-g-personal.github.io/HTML/"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="https://yb-g-personal.github.io/HTML/index2"><i class="fa fa-fw fa-globe"></i> Sources</a>
+    <a href="https://yb-g-personal.github.io/HTML/index3"><i class="fa fa-fw fa-book"></i> School Tasks</a>
+    <a href="https://yb-g-personal.github.io/HTML/index4"><i class="fa fa-fw fa-bell"></i> Updates</a>
+    <a href="https://github.com/yb-g-personal/HTML/blob/main/index.html"><i class="fa fa-fw fa-github-alt"></i> Current Page Code</a>
+  </div>
+
+<div class="main">
+
+<!-- The Main Code -->
+
+<h1 style="color:crimson;font-size:50px">My First Heading!</h1>
+
+<p> <p align="center">My First Paragraph! I will improve this website more! Stay Tuned! :D</p>
+
+<hr style="border-color:Black">
+
+<strong><em>My Picture!</em></strong>
+<img src="My Pic.JPG" alt="A picture" width="1440" height="900">
+<hr>
+<tagname>Hope you like that <i>picture!</i></tagname>
+<p>My favourite game is roblox! <a href="https://www.roblox.com/users/1711511734/profile">My roblox profile</a></p>
+
+<p>This is my favourite <a href="http://www.youtube.com/watch?v=5hEh9LiSzow">song!</a> </p>
+
+<p>I am going to show you all of the headings!</p>
+
+
+<h1>Hello!</h1>
+<h2>I am</h2>
+<h3>Vaibhav</h3>
+<h4>and these</h4>
+<h5>are all</h5>
+<h6>the heading formats!</h6>
+
+This page is getting Bigger and <big>Bigger!</big>
+<br>
+<font color="aqua">If u see this, u are epic</font>
 </body>
 </html>
